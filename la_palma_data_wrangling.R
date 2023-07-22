@@ -25,9 +25,9 @@ getwd()
 
 #load the sheets "Data_Length" as well as "Data" from the excel file "methods in
 #the file methods_altered_ash_depth has only numeric values (no > or < )
-needle_length <- read_excel("lapalma_input_data/Methods.xlsx", "Data_Length")
+needle_length <- read_excel("lapalma_input_data/Data.xlsx", "Data_Length")
 
-additional_data <- read_excel("lapalma_input_data/Methods.xlsx", "Data")
+additional_data <- read_excel("lapalma_input_data/Data.xlsx", "Data")
 
 #check the tables /structure
 
